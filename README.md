@@ -1,9 +1,9 @@
 # jenkins_teste
 
-# Repositorio do Projeto Kabug com, Cucumber, Capybara e Ruby
+## Repositorio do Projeto Kabug com, Cucumber, Capybara e Ruby
 
-##Como executar o projeto
--Importante ter a versao do Ruby instalado (2.5 ou superior)
+###Como executar o projeto
+*Importante ter a versao do Ruby instalado (2.5 ou superior)
 
 ### Instalar o Bundler
 gem install bundler
