@@ -9,6 +9,7 @@ pipeline{
         stage('Biuld'){
             steps {
                 echo 'Biulding or Resolve Dependencies!'
+                sh 'rm -f Gemfile.lock'
                 sh 'bundle install'
             }
             
