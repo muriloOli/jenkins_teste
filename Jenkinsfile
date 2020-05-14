@@ -21,7 +21,7 @@ pipeline{
                 cucumber failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', jsonReportDirectory: 'logs', pendingStepsNumber: -1, skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
             }
         }
-        stage('Homologation'){
+        stage('UAT'){
             steps {
                 echo 'Wait for User acceptance'
                 input(message:'Go to production?', ok: 'Yes')
