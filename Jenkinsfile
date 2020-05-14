@@ -16,6 +16,7 @@ pipeline{
         stage('Test'){
             steps {
                 echo 'Running Regression Test!'
+                sh 'bundle exec cucumber -p ci'
             }
         }
         stage('Homologation'){
