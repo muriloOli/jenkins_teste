@@ -1,6 +1,7 @@
 ---
-default: -p chrome -p json -p pretty
-ci: -p headless -p json -p pretty
+default: -p remote -p json -p pretty
+ci: -p chrome -p json -p pretty
+remote: BROWSER=remote
 firefox: BROWSER=firefox
 chrome: BROWSER=chrome
 headless: BROWSER=headless
